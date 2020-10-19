@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Github users finder</title>
+    <link rel="shortcut icon" href="https://i.postimg.cc/4dtSF5vb/gr-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.2/cosmo/bootstrap.min.css' /> -->
+<link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body>
+    <header>
+        <h1 class='title'> Github users finder </h1>
+    </header>
+    <main class="mt-3">
+        <div class="container searchContainer">
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <div class="jumbotron">
+                        <h2>Search Github users</h2>
+                        <hr>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="username" id="searchUser"
+                                aria-describedby="helpId" placeholder="example: g-rohit">
+                            <small id="helpId" class="mt-2 form-text text-muted">Enter a username to fetch the profile
+                            </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col mx-auto" id="profile">
+                       </div>
+                </div>
+                
+            </div>
+    </main>
+    <div class="spacer"></div>
+    <footer>
+        <div class='footer-copyright text-center'>Developed with ❤️ by <a
+                href='https://grohit.com/' class='white-text'>G Rohit</a>. <a href='https://codepen.io/grohit/'>View my
+                popular pens </a> </div>
+    </footer>
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script type='text/javascript' src='github.js'></script>
+    <script type='text/javascript' src='ui.js'></script>
+    <script type='text/javascript' src='app.js'></script>
+</body>
+
+</html>
